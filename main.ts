@@ -1,6 +1,6 @@
-if (input.lightLevel() > 5) {
-    music.siren.play()
-} else {
-    music.magicWand.loop()
+while (true) {
+    if (input.lightLevel() > 5) {
+        music.pewPew.playUntilDone()
+    }
+    
 }
-
